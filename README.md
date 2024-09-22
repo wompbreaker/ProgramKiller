@@ -35,3 +35,6 @@ This is completely optional. You can choose to skip this step.
 **2. Edit the crontab file:** Type `crontab -e` in the terminal.
 
 **3. Edit crontab:** Add `@reboot /path/to/your/proc_killer.sh` at the end of the file. **NOTE**: Don't forget to change `/path/to/your/` with the actual *absolute* file path to `proc_killer.sh`. After that, save and exit the editor.
+
+# License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
